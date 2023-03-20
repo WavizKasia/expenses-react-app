@@ -65,7 +65,7 @@ const removeData=()=>{
         newData.length ===0?"":<div className='mx-auto w-75 d-flex '>
         <button className='btn btn-warning form-control' onClick={removeData}>Clear All</button>
         <button className='btn btn-secondary form-control mx-2' style={{fontSize:"20px", fontWeight:"bold"}}> Total Expenses card : {newData.length}</button>
-        <button className='btn btn-secondary form-control mx-2' style={{fontSize:"20px", fontWeight:"bold"}}> Total Expenses card : {amount}</button>
+        <button className='btn btn-secondary form-control mx-2' style={{fontSize:"20px", fontWeight:"bold"}}> Total Expenses : ${amount}</button>
         
      </div>
      }

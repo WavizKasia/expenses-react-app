@@ -22,10 +22,10 @@ const ExpenseList = ({expense}) => {
   return (
     <>
     
-    <div className={classes.main_expense} style={{marginTop:"5px" , backgroundColor: expense.amount > 500 ? "red":""}}>
+    <div className={classes.main_expense} style={{marginTop:"5px" , backgroundColor: expense.amount > 500 ? "blue":""}}>
         <ExpenseDate date={expense.date}/>
         <div className={classes.expense_title}>expense for :{expense.title}</div>
-        <div className={classes.expense_amount} style={{backgroundColor: expense.amount > 100?"red":"green"}}>{expense.amount}$</div>
+        <div className={classes.expense_amount} style={{backgroundColor: expense.amount > 100?"yellow":"green"}}>{expense.amount}$</div>
     </div>
     </>
   )
