@@ -1,0 +1,46 @@
+.add_title{
+    color: chocolate;
+    padding: 10px 15px;
+    text-align: center;
+}
+.main_expense{
+    background-color: rgb(216, 222, 240);
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.expense_date{
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(196, 196, 185);
+    border-radius: 20px;
+    
+
+}
+.expense_amount{
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(118, 118, 111);
+    border-radius: 20px;
+}
+
+
+.expense_title{
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: rgb(151, 162, 181);
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
